@@ -1,0 +1,70 @@
+/* Custom styles for the background image */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    background-image: url('images/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+/* Custom styles for the centered box */
+.box-container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    margin-top: 50px; /* Adjust the margin as needed */
+    border-radius: 10px;
+}
+/* Custom styles for the frame container */
+.frame-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Background color for the frame */
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 60%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    padding: 20px; /* Adjust the padding as needed */
+    border: 2px solid #fff; /* Optional border for the frame */
+    border-radius: 10px; /* Optional border radius */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Optional box shadow */
+}
+.main
+{
+    text-align: center;
+}
+.main h1{
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.submain
+{
+    text-align: center;
+}
+.submain h1{
+    text-decoration: underline;
+    padding: 5px;
+}
+.textimg
+{
+    text-align: center;
+}
+.textimg h4
+{
+    margin-bottom: 20px;
+    text-decoration: underline orange;
+}
+.textimg p
+{
+    text-align: justify;
+}
+
+@media  screen and (max-width: 450px)
+{
+    .col-md-3{
+        width: 100%;
+    }
+}
